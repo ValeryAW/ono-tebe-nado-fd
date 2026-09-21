@@ -25,8 +25,31 @@ blockquote {
   padding: 0;
 }
 
+h1 {
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
 a {
   color: inherit;
+  font-style: normal;
+  text-decoration-thickness: 1px;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 4px;
 }
 
 img {
@@ -34,5 +57,17 @@ img {
 }
 
 button {
+  border: 1px solid #ffffff;
+  padding: 12px 32px;
+  color: #ffffff;
   font: inherit;
+  font-size: 22px;
+  line-height: 115%;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.body-text {
+  font-size: 20px;
 }
