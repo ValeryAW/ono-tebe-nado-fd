@@ -13,7 +13,7 @@
     <header class="header">
       <nav class="header__nav">
         <ul class="header__nav-list">
-          <li><a class="header__menu-item_active">главная</a></li>
+          <li><a class="header__menu-item_active" href="/">главная</a></li>
           <li>
             <a class="header__menu-item_inactive" href="/lots"
               >посмотреть лоты</a
@@ -42,14 +42,14 @@
         <div class="overlay"></div>
         <h1 class="cover__title">
           <span class="text-left">Оно</span>
-          <span class="text-center">тебе</span>
+          <span class="text-center">теб<span class="no-letter-spacing">е</span></span>
           <span class="text-right">над<span class="no-letter-spacing">о</span></span>
         </h1>
         <div class="description">
           <p class="description__text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button>Сделать ставку</button>
+          <button type="button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -142,9 +142,15 @@
       </address>
       <nav class="footer__nav">
         <ul class="footer__nav-list">
-          <li><a>главная</a></li>
-          <li><a href="/lots">посмотреть лоты</a></li>
-          <li><a href="/about">об аукционе</a></li>
+          <li>
+            <a class="footer__menu-item_active" href="/">главная</a>
+          </li>
+          <li>
+            <a class="footer__menu-item_inactive" href="/lots">посмотреть лоты</a>
+          </li>
+          <li>
+            <a class="footer__menu-item_inactive" href="/about">об аукционе</a>
+          </li>
         </ul>
       </nav>
       <div class="footer__social-links">
